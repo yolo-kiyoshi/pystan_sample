@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "poetry_docker"
+version = "0.1.0"
+description = ""
+authors = ["yolo-kiyoshi"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+sklearn = "^0.0"
+jupyterlab = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+japanize-matplotlib = "*"
+statsmodels = "^0.12.1"
+pystan = "^2.19.1"
+arviz = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
